@@ -1,12 +1,8 @@
 [
   {
-    "title": "Astro Blur",
-    "repo": "https://github.com/Jazee6/astro-blur",
-    "description": "A static blog theme built with Astro / 一个静态Astro博客主题"
-  },
-  {
-    "title": "Cloudflare AI Web",
-    "repo": "https://github.com/Jazee6/cloudflare-ai-web",
-    "description": "支持Gemini Pro / Cloudflare Workers AI / ChatGPT的融合Web平台"
+    "title": "Concert Now",
+    "repo": "https://github.com/Gingene/Concert-now",
+    "website": "https://gingene.github.io/Concert-now/#/",
+    "description": "整理收集整理全台灣的演唱會資訊，"
   }
 ]
