@@ -1,12 +1,13 @@
 ---
 import {siteConfig, navBarConfig} from "../config";
 import {Icon} from 'astro-icon/components'
+const { PROD } = import.meta.env;
 ---
 
 <header class="fixed h-16 w-full blur-global">
     <div class="container-global h-full flex items-center">
         <div class="text-xl font-bold cursor-pointer">
-            <a href="/">{siteConfig.title}</a>
+            <a href=`${PROD ? "/astro-portfolio" : ""}/`>{siteConfig.title}</a>
         </div>
 
         <nav class="ml-auto max-sm:hidden">

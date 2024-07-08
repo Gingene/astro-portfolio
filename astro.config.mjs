@@ -9,7 +9,7 @@ import { siteConfig } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: siteConfig.site,
-  base: process.env.NODE_ENV === "production" ? "/astro-portfolio/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/astro-portfolio" : "/",
   integrations: [
     mdx(),
     sitemap(),

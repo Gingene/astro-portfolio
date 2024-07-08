@@ -1,11 +1,12 @@
+const { PROD } = import.meta.env;
 export const siteConfig: SiteConfig = {
   title: "Gingene",
   language: "zh-tw",
   description: "Gingene's blog",
   keywords: "Astro, portfolio, Gingene's blog",
   author: "Gingene",
-  avatar: "/avatar.png",
-  favicon: "/favicon.ico",
+  avatar: `${PROD ? "/astro-portfolio" : ""}/avatar.png`,
+  favicon: `${PROD ? "/astro-portfolio" : ""}/favicon.ico`,
   site: "https://gingene.github.io",
 
   page_size: 10,
@@ -15,15 +16,15 @@ export const navBarConfig: NavBarConfig = {
   links: [
     {
       name: "Projects",
-      url: "/projects",
+      url: `${PROD ? "/astro-portfolio" : ""}/projects`,
     },
     {
       name: "Links",
-      url: "/links",
+      url: `${PROD ? "/astro-portfolio" : ""}/links`,
     },
     {
       name: "About",
-      url: "/about",
+      url: `${PROD ? "/astro-portfolio" : ""}/about`,
     },
   ],
 };
