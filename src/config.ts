@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
   author: "Gingene",
   avatar: "/avatar.png",
   favicon: "/favicon.ico",
-  site: "https://gingene.github.io/astro-portfolio/",
+  site: "https://gingene.github.io",
 
   page_size: 10,
 };
