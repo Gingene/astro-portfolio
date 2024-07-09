@@ -1,15 +1,19 @@
-import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
-import tailwind from "@astrojs/tailwind";
-import icon from "astro-icon";
-import { remarkModifiedTime } from "./src/utils/remark-modified-time";
-import { siteConfig } from "./src/config";
+import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import icon from 'astro-icon';
+import { remarkModifiedTime } from './src/utils/remark-modified-time';
+import { siteConfig } from './src/config';
+import { fileURLToPath, URL } from 'node:url';
+
+import react from '@astrojs/react';
+import vue from '@astrojs/vue';
 
 // https://astro.build/config
 export default defineConfig({
   site: siteConfig.site,
-  base: process.env.NODE_ENV === "production" ? "/astro-portfolio" : "/",
+  base: process.env.NODE_ENV === 'production' ? '/astro-portfolio' : '/',
   integrations: [
     mdx(),
     sitemap(),
@@ -17,12 +21,19 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     icon(),
+    react(),
+    vue(),
   ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
   markdown: {
     shikiConfig: {
       themes: {
-        light: "one-light",
-        dark: "one-dark-pro",
+        light: 'one-light',
+        dark: 'one-dark-pro',
       },
     },
     remarkPlugins: [remarkModifiedTime],

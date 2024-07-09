@@ -1,13 +1,13 @@
 const { PROD } = import.meta.env;
 export const siteConfig: SiteConfig = {
-  title: "Gingene",
-  language: "zh-tw",
+  title: 'Gingene',
+  language: 'zh-tw',
   description: "Gingene's blog",
   keywords: "Astro, portfolio, Gingene's blog",
-  author: "Gingene",
-  avatar: `${PROD ? "/astro-portfolio" : ""}/avatar.png`,
-  favicon: `${PROD ? "/astro-portfolio" : ""}/favicon.ico`,
-  site: "https://gingene.github.io",
+  author: 'Gingene',
+  avatar: `${PROD ? '/astro-portfolio' : ''}/avatar.png`,
+  favicon: `${PROD ? '/astro-portfolio' : ''}/favicon.ico`,
+  site: 'https://gingene.github.io',
 
   page_size: 10,
 };
@@ -15,16 +15,16 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
   links: [
     {
-      name: "Projects",
-      url: `${PROD ? "/astro-portfolio" : ""}/projects`,
+      name: 'Projects',
+      url: `${PROD ? '/astro-portfolio' : ''}/projects`,
     },
     {
-      name: "Links",
-      url: `${PROD ? "/astro-portfolio" : ""}/links`,
+      name: 'Links',
+      url: `${PROD ? '/astro-portfolio' : ''}/links`,
     },
     {
-      name: "About",
-      url: `${PROD ? "/astro-portfolio" : ""}/about`,
+      name: 'About',
+      url: `${PROD ? '/astro-portfolio' : ''}/about`,
     },
   ],
 };
@@ -32,9 +32,14 @@ export const navBarConfig: NavBarConfig = {
 export const socialLinks: SocialLink[] = [
   // https://icon-sets.iconify.design/material-symbols/
   {
-    label: "GitHub",
-    icon: "mdi-github",
-    url: "https://github.com/Gingene",
+    label: 'GitHub',
+    icon: 'mdi-github',
+    url: 'https://github.com/Gingene',
+  },
+  {
+    label: 'Email',
+    icon: 'mail',
+    url: 'mailto:ginx2618@gmail.com',
   },
 ];
 

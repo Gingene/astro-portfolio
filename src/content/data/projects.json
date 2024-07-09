@@ -3,6 +3,24 @@
     "title": "Concert Now",
     "repo": "https://github.com/Gingene/Concert-now",
     "website": "https://gingene.github.io/Concert-now/#/",
-    "description": "整理收集整理全台灣的演唱會資訊，"
+    "description": "整理收集整理國內外的演唱會購票資訊"
+  },
+  {
+    "title": "The F2E 2023 - Mission 1 立委競選",
+    "repo": "https://github.com/Gingene/2023-thef2e-misson1-Legislative_Election",
+    "website": "https://gingene.github.io/2023-thef2e-misson1-Legislative_Election/",
+    "description": "2023 F2E 銀級數位勳章"
+  },
+  {
+    "title": "AI 切版作品",
+    "repo": "https://github.com/Gingene/2023hexschool-webdesign-project8-ai",
+    "website": "https://gingene.github.io/2023hexschool-webdesign-project8-ai/",
+    "description": ""
+  },
+  {
+    "title": "Codex_AI_project",
+    "repo": "https://github.com/Gingene/Codex_AI_project",
+    "website": "#",
+    "description": "可以與chatgpt-3.5對話"
   }
 ]
