@@ -25,7 +25,7 @@ npm create vite@latest
 所以這邊就使用npx呼叫就好
 
 先建立一個index.html
-![image](/public/vite1.png)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite1.png?raw=true)
 
 打下面指令
 
@@ -34,17 +34,17 @@ npx vite
 ```
 
 這邊需要安裝必要的package
-![image](/public/vite3.png)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite3.png?raw=true)
 
 安裝完專案下會新增的.vite資料夾
 這時候已經可以開啟網頁了
-![image](/public/vite4.png)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite4.png?raw=true)
 
 畫面開啟成功
-![image](/public/vite5.png)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite5.png?raw=true)
 
 不過你有注意到這邊嗎?
-![image](/public/vite-host.jpg)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite-host.jpg?raw=true)
 
 其實這邊很容易被忽略掉就是可以在後面增加參數 --host  
 這在官方文件也有說明[CLI](https://vitejs.dev/guide/cli.html)  
@@ -58,7 +58,7 @@ npx vite
 npx vite --host
 ```
 
-![image](/public/vite-network.png)
+![image](https://github.com/Gingene/astro-portfolio/blob/main/public/vite-post/vite-network.png?raw=true)
 
 可以看到下面多了一些IP可以點擊，  
 這邊IP是你的區網內你目前開發電腦的IP位址，  

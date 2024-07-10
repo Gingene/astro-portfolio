@@ -37,6 +37,11 @@ export const socialLinks: SocialLink[] = [
     url: 'https://github.com/Gingene',
   },
   {
+    label: 'Codepen',
+    icon: 'codepen',
+    url: 'https://codepen.io/genesynthesis',
+  },
+  {
     label: 'Email',
     icon: 'mail',
     url: 'mailto:ginx2618@gmail.com',
